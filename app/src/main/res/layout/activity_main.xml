@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="bottom|center">
+
+        <ImageView
+            android:id="@+id/azino"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center|center_horizontal"
+            android:src="@drawable/azino"
+            android:translationY="27sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="264sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="402dp"
+            android:layout_marginLeft="110dp">
+
+            <ImageView
+                android:id="@+id/icon_1"
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_axe"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/icon_2"
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_axe"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/icon_3"
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_axe"
+                android:adjustViewBounds="true"/>
+
+            <ImageButton
+                android:id="@+id/start_azino"
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/azino_lever2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="28dp"/>
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/azino_down"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:translationY="27sp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/azino_down_2" />
+
+        <ImageView
+            android:id="@+id/azino_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:translationY="27sp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/azino_up_2" />
+
+        <ImageView
+            android:id="@+id/azino_lantern_none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center|center_horizontal"
+            android:src="@drawable/azino_go_none"
+            android:translationY="27sp"
+            tools:layout_editor_absoluteX="0sp"
+            tools:layout_editor_absoluteY="264sp" />
+
+        <ImageView
+            android:id="@+id/azino_lantern"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center|center_horizontal"
+            android:src="@drawable/azino_whait_green"
+            android:translationY="27sp"
+            tools:layout_editor_absoluteX="0sp"
+            tools:layout_editor_absoluteY="264sp" />
+
+        <ImageView
+            android:id="@+id/you_lose"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center|center_horizontal"
+            android:src="@drawable/you_lose"
+            android:translationY="27sp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="0sp"
+            tools:layout_editor_absoluteY="264sp" />
+
+        <ImageView
+            android:id="@+id/little_win"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center|center_horizontal"
+            android:src="@drawable/little_win"
+            android:translationY="27sp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="0sp"
+            tools:layout_editor_absoluteY="264sp" />
+
+        <ImageView
+            android:id="@+id/big_win"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center|center_horizontal"
+            android:src="@drawable/big_win"
+            android:translationY="27sp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="0sp"
+            tools:layout_editor_absoluteY="264sp" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
